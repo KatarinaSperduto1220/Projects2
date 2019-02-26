@@ -1,0 +1,41 @@
+40
+PRINTMEMBERS
+ADD 56784 Homer Simpson IT
+ADD 65324 Marge Simpson CS
+ADD 22379 Ned Flanders CS
+UNFRIEND Homer Simpson Marge Simpson
+FRIEND Homer Simpson Marge Simpson
+FRIEND Homer Simpson Bart Simpson
+FRIEND Maggie Simpson Bart Simpson
+FINDNAME Bart Simpson
+FINDNAME Homer Simpson
+FINDID 65324
+ADD 12352 Maude Flanders IS
+ADD 56784 Homer Simpson IT
+PRINTFRIENDS Bart Simpson
+FRIEND Ned Flanders Maude Flanders
+FRIEND Ned Flanders Homer Simpson
+FRIEND Homer Simpson Marge Simpson
+FINDNAME Homer Simpson
+FINDNAME Ned Flanders
+FINDNAME Maude Flanders
+FRIEND Homer Simpson Maude Flanders
+FINDNAME Homer Simpson
+PRINTFRIENDS Homer Simpson
+UNFRIEND Homer Simpson Ned Flanders
+PRINTFRIENDS Homer Simpson
+PRINTFRIENDS Marge Simpson
+UNFRIEND Homer Simpson Marge Simpson
+PRINTFRIENDS Marge Simpson
+FINDID 56784
+FINDID 22379
+FINDID 77777
+DELETE Bart Simpson
+DELETE Maude Flanders
+PRINTFRIENDS Ned Flanders
+UNFRIEND Maude Flanders Ned Flanders
+UNFRIEND Maude Flanders Bart Simpson
+FINDNAME Ned Flanders
+FINDNAME Maude Flanders
+FRIEND Homer Simpson Marge Simpson
+PRINTMEMBERS

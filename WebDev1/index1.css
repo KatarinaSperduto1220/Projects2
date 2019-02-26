@@ -1,0 +1,85 @@
+h1,h2{
+  color: silver;
+  text-align: center;
+  font-family: Georgia, fantasy,cursive;
+  font-variant: small-caps;
+  margin-bottom: .05%;
+}
+h1{
+  font-size: 75pt;
+}
+h2 {
+  font-size: 72pt;
+}
+@font-face {
+  font-family: 'Aurebesh';
+  src: url('aurebesh/Aurebesh.ttf');
+}
+.wd,.ipg {
+  font-family: Aurebesh, Georgia, fantasy, cursive;
+  /* font-family: Aurebesh; */
+  /* src: url(aurebesh/Aurebesh.ttf); */
+  color: #008000;
+  text-align: center;
+  margin-top: .05%;
+}
+.wd {
+  font-size: 43pt;
+}
+.ipg {
+  font-size: 40pt;
+}
+
+body {
+  background-image: url("images/deathstar.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+span {
+  background-image: url("images/lightsabers.jpg");
+  background-blend-mode:  difference;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+}
+li {
+    display: inline-block;
+    border-right:1px solid #bbb;
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+    color: red;
+}
+.active {
+    background-color: #4CAF50;
+}
+
+.Projects,.Pp,.Cp,.Other{
+  color: silver;
+  font-size: 25pt;
+  font-family: Georgia, cursive, fantasy;
+}
+
+.projects,.pp,.cp,.other{
+  font-family: Aurebesh, Georgia, fantasy, cursive;
+  font-size: 16pt;
+  color: #008000;
+  margin-top: .05%;
+}

@@ -1,0 +1,66 @@
+body {
+  background-image: url("images/overlookingtatooine.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* width: 100%;
+  height: 100%; */
+}
+
+h3,li{
+  color: black;
+  margin-bottom: .05%;
+}
+h3{
+  text-align: center;
+  font-size: 30pt;
+  font-family: Georgia, fantasy, cursive;
+  font-variant: small-caps;
+  text-indent: 7%;
+}
+li {
+  margin-left: 50%;
+  font-size: 20pt;
+  font-family: fantasy;
+}
+ol {
+  list-style-position: inside;
+  list-style-image: url("images/Vader_LE_Lightsaber-3.gif");
+  display: block;
+  position: static;
+}
+a {
+  color: red;
+}
+@font-face {
+  font-family: 'Aurebesh';
+  src: url('aurebesh/Aurebesh.ttf');
+}
+.pro,.p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8,.H {
+  font-family: Aurebesh, Georgia, fantasy, cursive;
+  color: #008000;
+}
+.pro {
+  font-size: 16pt;
+  text-align: center;
+  text-indent: 8%;
+  margin-top: .05%;
+}
+.p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8 {
+  font-size: 12pt;
+  margin-left: .5%;
+  text-indent: 60pt;
+  margin-top: .05%;
+}
+.Home{
+  position: absolute;
+  bottom: 25px;
+  font-size: 20pt;
+  margin-left: 6%;
+}
+.H{
+  position: absolute;
+  bottom: 5px;
+  font-size: 12pt;
+  margin-left: 6%;
+}

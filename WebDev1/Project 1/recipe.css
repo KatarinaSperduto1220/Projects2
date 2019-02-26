@@ -1,0 +1,73 @@
+/*Granny's Pie: Katarina Sperduto*/
+  /*CSC 3610: Web Development (Project 1)*/
+  /*Dr. Roberson*/
+  /*Due: 9-8-17*/
+
+  /*CSS File for pie.html*/
+
+/*All Headers*/
+h1, h2 {
+  color: #A4A400;
+  font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.25em;
+  text-decoration: underline;
+}
+
+/*Main Heading*/
+h1 {
+  text-align: center;
+  font-size: 22pt;
+  font-weight: bold;
+}
+
+/*Other Headers*/
+h2 {
+  text-align: left;
+  font-size: 18pt;
+  font-weight: normal;
+}
+
+/*Extra: Tight Heading Background*/
+span {
+  background-color: #F0F0F0;
+}
+
+/*Extra: Silverware Background*/
+body {
+  background-image: url("P1Files/silverware.jpg");
+  background-attachment: scroll;
+  background-repeat: repeat;
+}
+
+/*Body Text info*/
+body {
+  font-size: 11pt;
+  font-family: Georgia, Garamond, serif;
+  font-weight: normal;
+}
+
+/*Abbreviated Text underline*/
+abbr {
+  text-decoration: underline;
+}
+
+/*Link and blockquote color*/
+a {
+  color: #A4A400;
+}
+blockquote {
+  background-color: #FFFFA8;
+}
+
+/*Define Strong and Em tags as Bold and Italics*/
+strong {
+font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+
+/*Extra: Pie Bullets*/
+ul {
+  list-style-image: url("P1Files/pie_icon.gif");
+}

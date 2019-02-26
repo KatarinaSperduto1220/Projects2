@@ -1,0 +1,144 @@
+PRINTMEMBERS Command
+	Cannot Perform PRINTMEMBERS Command:
+		There are currently no members of FSCbook.
+
+ADD Command
+	Homer Simpson (ID 56784), from the IT department, joined FSCbook.
+
+ADD Command
+	Marge Simpson (ID 65324), from the CS department, joined FSCbook.
+
+ADD Command
+	Ned Flanders (ID 22379), from the CS department, joined FSCbook.
+
+UNFRIEND Command
+	Cannot Perform UNFRIEND Command:
+	Homer Simpson and Marge Simpson are not currently friends.
+
+FRIEND Command
+	Homer Simpson and Marge Simpson are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		Bart Simpson - this Student is not in FSCbook.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		Maggie Simpson - this student is not in FSCbook.
+		Bart Simpson - this Student is not in FSCbook.
+
+FINDNAME Command
+	Bart Simpson was not found in FSCbook.
+
+FINDNAME Command
+	Found:  ID 56784, Homer Simpson (IT Department)
+
+FINDID Command
+	Found:  ID 65324, Marge Simpson (CS Department)
+
+ADD Command
+	Maude Flanders (ID 12352), from the IS department, joined FSCbook.
+
+ADD Command
+	Cannot Perform ADD Command:
+		ID 56784, Homer Simpson - already a member of FSCbook.
+
+PRINTFRIENDS Command
+	Cannot Perform PRINTFRIENDS Command:
+		Bart Simpson was not found in FSCbook.
+
+FRIEND Command
+	Ned Flanders and Maude Flanders are now friends.
+
+FRIEND Command
+	Ned Flanders and Homer Simpson are now friends.
+
+FRIEND Command
+	Cannot Perform FRIEND Command:
+		Homer Simpson and Marge Simpson are already friends.
+
+FINDNAME Command
+	Found:  ID 56784, Homer Simpson (IT Department)
+
+FINDNAME Command
+	Found:  ID 22379, Ned Flanders (CS Department)
+
+FINDNAME Command
+	Found:  ID 12352, Maude Flanders (IS Department)
+
+FRIEND Command
+	Homer Simpson and Maude Flanders are now friends.
+
+FINDNAME Command
+	Found:  ID 56784, Homer Simpson (IT Department)
+
+PRINTFRIENDS Command
+	Friends for ID 56784, Homer Simpson (IT Department):
+		There are a total of 3 friends(s).
+		Student ID 12352, Maude Flanders (IS)
+		Student ID 22379, Ned Flanders (CS)
+		Student ID 65324, Marge Simpson (CS)
+
+UNFRIEND Command
+	Homer Simpson and Ned Flanders are no longer friends.
+
+PRINTFRIENDS Command
+	Friends for ID 56784, Homer Simpson (IT Department):
+		There are a total of 2 friends(s).
+		Student ID 12352, Maude Flanders (IS)
+		Student ID 65324, Marge Simpson (CS)
+
+PRINTFRIENDS Command
+	Friends for ID 65324, Marge Simpson (CS Department):
+		There are a total of 1 friends(s).
+		Student ID 56784, Homer Simpson (IT)
+
+UNFRIEND Command
+	Homer Simpson and Marge Simpson are no longer friends.
+
+PRINTFRIENDS Command
+	Marge Simpson has no friends.
+
+FINDID Command
+	Found:  ID 56784, Homer Simpson (IT Department)
+
+FINDID Command
+	Found:  ID 22379, Ned Flanders (CS Department)
+
+FINDID Command
+	ID 77777 was not found in FSCbook.
+
+DELETE Command
+	Cannot Perform DELETE Command:
+		Bart Simpson was not found in FSCbook.
+
+DELETE Command
+	Maude Flanders has been removed from FSCbook.
+
+PRINTFRIENDS Command
+	Ned Flanders has no friends.
+
+UNFRIEND Command
+	Cannot Perform UNFRIEND Command:
+		Maude Flanders - this student is not in FSCbook.
+
+UNFRIEND Command
+	Cannot Perform UNFRIEND Command:
+		Maude Flanders - this student is not in FSCbook.
+		Bart Simpson - this Student is not in FSCbook.
+
+FINDNAME Command
+	Found:  ID 22379, Ned Flanders (CS Department)
+
+FINDNAME Command
+	Maude Flanders was not found in FSCbook.
+
+FRIEND Command
+	Homer Simpson and Marge Simpson are now friends.
+
+PRINTMEMBERS Command
+	Members of FSCbook:
+		ID 22379, Ned Flanders, (CS)
+		ID 56784, Homer Simpson, (IT)
+		ID 65324, Marge Simpson, (CS)
+

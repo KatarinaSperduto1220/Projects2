@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 10pt;
+    }
+h1 {
+  font-size: 48pt;
+  text-decoration: underline;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+h2 {
+  font-size: 24pt;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+p {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+#content {
+  border-color: red;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 20px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgrey;
+}
+ #quote {
+  background-color: darkgrey;
+  color: red;
+  margin-bottom: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
+ }
+ #image {
+   text-align: center;
+}

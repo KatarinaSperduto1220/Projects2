@@ -1,0 +1,132 @@
+/*TMNT - Rancid Tomatoes: Katarina Sperduto*/
+  /*CSC 3610: Web Development (Project 2)*/
+  /*Dr. Roberson*/
+  /*Due: 9-29-17*/
+  /*CSS File for tmnt.html*/
+body {
+      background-image: url("background.png");
+      background-attachment: scroll;
+      background-repeat: repeat;
+      font-size: 8pt;
+      font-family: Verdana, Tahoma, sans-serif;
+      margin: 0%;
+      padding: 0%;
+    }
+h1 {
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px #999999;
+  }
+dt {
+    font-weight: bold;
+  }
+dd {
+    padding-bottom: 10pt;
+  }
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+#banner {
+      text-align: center;
+      background-image: url("bannerbg.png");
+      height: 50px;
+    }
+#content {
+      border-color: grey;
+      border-radius: 20px;
+      border-width: 4px;
+      border-style: solid;
+      overflow: hidden;
+      width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0%;
+    }
+#banner2 {
+      width: 550px;
+      background-image: url("rbg.png");
+      font-size: 48pt;
+      font-weight: bold;
+      color: red;
+      height: 83px;
+      column-span: all;
+    }
+#banner2 img{
+      vertical-align: text-bottom;
+    }
+#overview {
+    width: 250px;
+    background-color: #A2B964;
+    font-size: 8pt;
+    font-family: Arial, sans-serif;
+    padding: 10pt;
+    float: right;
+    padding: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+#castlist {
+    margin-left: 10pt;
+    margin-right: 10pt;
+    margin-top: 10pt;
+  }
+#content2 {
+    column-count: 2;
+    margin: 2%;
+  }
+#content2 .column1, .column2 {
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+#content2 .C1,.C2,.C2_oddone {
+  font-size: 8pt;
+  clear: both;
+  font-weight:bold;
+  background-color: #E8DC9B;
+  border-color: grey;
+  border-width: 2px;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 8px;
+  overflow: hidden;
+}
+#content2 .C1 img,.C2 img{
+  float: left;
+  margin: 5px;
+  }
+#content2 .PI, .PI_end  {
+  padding-top: 5px;
+  margin-bottom: 20pt;
+  font-style: italic;
+  }
+#content2 .PI_end  {
+    padding-top: 5px;
+    margin-bottom: 60pt;
+    font-style: italic;
+    }
+#content2 .PI img, .PI_end img{
+  float: left;
+  margin-right: 5px;
+  }
+
+#validators {
+  text-align: right;
+  clear: both;
+  opacity: .5
+    }
+#content .pg_num {
+    background-color: #A2B964;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 800px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    clear: both;
+  }

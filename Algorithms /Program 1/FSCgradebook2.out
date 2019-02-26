@@ -1,0 +1,263 @@
+Welcome to the FSC Grade Book.
+
+Command: DISPLAYSTUDENTS
+   ERROR: there are no students currently in the system.
+
+Command: DISPLAYSTATS
+Statistical Results of CSC-3380 (Instructor: Dr Jonathan Cazalas):
+     Total number of student records: 0
+     Average Score: 0.00
+     Highest Score: 0.00
+     Lowest Score:  0.00
+     Total 'A' Grades: 0 (0% of class)
+     Total 'B' Grades: 0 (0% of class)
+     Total 'C' Grades: 0 (0% of class)
+     Total 'D' Grades: 0 (0% of class)
+     Total 'F' Grades: 0 (0% of class)
+
+Command: SEARCHBYID
+	ERROR: cannot perform search. The gradebook is empty (no students added yet).
+
+Command: SEARCHBYNAME
+	ERROR: cannot perform search. The gradebook is empty (no students added yet).
+
+Command: ADDRECORD
+Joe Smith (ID# 111) has been added to the FSC Grade Book.
+   His final grade is 90.10 (A).
+
+Command: SEARCHBYNAME
+Student Record for Joe Smith (ID # 111):
+     Exam 1:       90
+     Exam 2:       85
+     Final Exam:   94
+     Final Grade:  90.10
+     Letter Grade: A
+
+Command: SEARCHBYID
+	Indices searched: 	Indices searched: 0, 
+Student Record for Joe Smith (ID # 111):
+     Exam 1:       90
+     Exam 2:       85
+     Final Exam:   94
+     Final Grade:  90.10
+     Letter Grade: A
+
+Command: DISPLAYSTATS
+Statistical Results of CSC-3380 (Instructor: Dr Jonathan Cazalas):
+     Total number of student records: 1
+     Average Score: 90.10
+     Highest Score: 90.10
+     Lowest Score:  90.10
+     Total 'A' Grades: 1 (100.00% of class)
+     Total 'B' Grades: 0 (0.00% of class)
+     Total 'C' Grades: 0 (0.00% of class)
+     Total 'D' Grades: 0 (0.00% of class)
+     Total 'F' Grades: 0 (0.00% of class)
+
+Command: DISPLAYSTUDENTS
+***Class Roster and Grade Sheet***
+
+ - Student Record for Joe Smith (ID # 111):
+     Exam 1:       90
+     Exam 2:       85
+     Final Exam:   94
+     Final Grade:  90.10
+     Letter Grade: A
+
+Command: ADDRECORD
+Jason Borne (ID# 871) has been added to the FSC Grade Book.
+   His final grade is 80.80 (B).
+
+Command: ADDRECORD
+Clark Kent (ID# 253) has been added to the FSC Grade Book.
+   His final grade is 60.00 (D).
+
+Command: DISPLAYSTATS
+Statistical Results of CSC-3380 (Instructor: Dr Jonathan Cazalas):
+     Total number of student records: 3
+     Average Score: 76.97
+     Highest Score: 90.10
+     Lowest Score:  60.00
+     Total 'A' Grades: 1 (33.33% of class)
+     Total 'B' Grades: 1 (33.33% of class)
+     Total 'C' Grades: 0 (0.00% of class)
+     Total 'D' Grades: 1 (33.33% of class)
+     Total 'F' Grades: 0 (0.00% of class)
+
+Command: SEARCHBYID
+	Indices searched: 	Indices searched: 1, 2, 
+Student Record for Jason Borne (ID # 871):
+     Exam 1:       90
+     Exam 2:       70
+     Final Exam:   82
+     Final Grade:  80.80
+     Letter Grade: B
+
+Command: SEARCHBYNAME
+Student Record for Clark Kent (ID # 253):
+     Exam 1:       40
+     Exam 2:       80
+     Final Exam:   60
+     Final Grade:  60.00
+     Letter Grade: D
+
+Command: DISPLAYSTUDENTS
+***Class Roster and Grade Sheet***
+
+ - Student Record for Joe Smith (ID # 111):
+     Exam 1:       90
+     Exam 2:       85
+     Final Exam:   94
+     Final Grade:  90.10
+     Letter Grade: A
+ - Student Record for Clark Kent (ID # 253):
+     Exam 1:       40
+     Exam 2:       80
+     Final Exam:   60
+     Final Grade:  60.00
+     Letter Grade: D
+ - Student Record for Jason Borne (ID # 871):
+     Exam 1:       90
+     Exam 2:       70
+     Final Exam:   82
+     Final Grade:  80.80
+     Letter Grade: B
+
+Command: ADDRECORD
+Student PlaysALot (ID# 584) has been added to the FSC Grade Book.
+   His final grade is 26.20 (F).
+
+Command: DISPLAYSTUDENTS
+***Class Roster and Grade Sheet***
+
+ - Student Record for Joe Smith (ID # 111):
+     Exam 1:       90
+     Exam 2:       85
+     Final Exam:   94
+     Final Grade:  90.10
+     Letter Grade: A
+ - Student Record for Clark Kent (ID # 253):
+     Exam 1:       40
+     Exam 2:       80
+     Final Exam:   60
+     Final Grade:  60.00
+     Letter Grade: D
+ - Student Record for Student PlaysALot (ID # 584):
+     Exam 1:       30
+     Exam 2:       20
+     Final Exam:   28
+     Final Grade:  26.20
+     Letter Grade: F
+ - Student Record for Jason Borne (ID # 871):
+     Exam 1:       90
+     Exam 2:       70
+     Final Exam:   82
+     Final Grade:  80.80
+     Letter Grade: B
+
+Command: DISPLAYSTATS
+Statistical Results of CSC-3380 (Instructor: Dr Jonathan Cazalas):
+     Total number of student records: 4
+     Average Score: 64.28
+     Highest Score: 90.10
+     Lowest Score:  26.20
+     Total 'A' Grades: 1 (25.00% of class)
+     Total 'B' Grades: 1 (25.00% of class)
+     Total 'C' Grades: 0 (0.00% of class)
+     Total 'D' Grades: 1 (25.00% of class)
+     Total 'F' Grades: 1 (25.00% of class)
+
+Command: ADDRECORD
+Student WhoWorksHard (ID# 777) has been added to the FSC Grade Book.
+   His final grade is 100.00 (A).
+
+Command: DISPLAYSTATS
+Statistical Results of CSC-3380 (Instructor: Dr Jonathan Cazalas):
+     Total number of student records: 5
+     Average Score: 71.42
+     Highest Score: 100.00
+     Lowest Score:  26.20
+     Total 'A' Grades: 2 (40.00% of class)
+     Total 'B' Grades: 1 (20.00% of class)
+     Total 'C' Grades: 0 (0.00% of class)
+     Total 'D' Grades: 1 (20.00% of class)
+     Total 'F' Grades: 1 (20.00% of class)
+
+Command: DISPLAYSTUDENTS
+***Class Roster and Grade Sheet***
+
+ - Student Record for Joe Smith (ID # 111):
+     Exam 1:       90
+     Exam 2:       85
+     Final Exam:   94
+     Final Grade:  90.10
+     Letter Grade: A
+ - Student Record for Clark Kent (ID # 253):
+     Exam 1:       40
+     Exam 2:       80
+     Final Exam:   60
+     Final Grade:  60.00
+     Letter Grade: D
+ - Student Record for Student PlaysALot (ID # 584):
+     Exam 1:       30
+     Exam 2:       20
+     Final Exam:   28
+     Final Grade:  26.20
+     Letter Grade: F
+ - Student Record for Student WhoWorksHard (ID # 777):
+     Exam 1:       100
+     Exam 2:       100
+     Final Exam:   100
+     Final Grade:  100.00
+     Letter Grade: A
+ - Student Record for Jason Borne (ID # 871):
+     Exam 1:       90
+     Exam 2:       70
+     Final Exam:   82
+     Final Grade:  80.80
+     Letter Grade: B
+
+Command: SEARCHBYNAME
+Student Record for Student WhoWorksHard (ID # 777):
+     Exam 1:       100
+     Exam 2:       100
+     Final Exam:   100
+     Final Grade:  100.00
+     Letter Grade: A
+
+Command: SEARCHBYID
+	Indices searched: 	Indices searched: 2, 0, 
+Student Record for Joe Smith (ID # 111):
+     Exam 1:       90
+     Exam 2:       85
+     Final Exam:   94
+     Final Grade:  90.10
+     Letter Grade: A
+
+Command: SEARCHBYID
+	Indices searched: 	Indices searched: 2, 3, 
+Student Record for Student WhoWorksHard (ID # 777):
+     Exam 1:       100
+     Exam 2:       100
+     Final Exam:   100
+     Final Grade:  100.00
+     Letter Grade: A
+
+Command: SEARCHBYID
+	Indices searched: 	Indices searched: 2, 3, 4, 
+Student Record for Jason Borne (ID # 871):
+     Exam 1:       90
+     Exam 2:       70
+     Final Exam:   82
+     Final Grade:  80.80
+     Letter Grade: B
+
+Command: SEARCHBYID
+	Indices searched: 	Indices searched: 2, 0, 1, 
+	ERROR: there is no record for student ID # 222.
+
+Command: SEARCHBYNAME
+	ERROR: there is no record for student "Donald Duck".
+
+Thank you for using the FSC Grade Book.
+Goodbye.

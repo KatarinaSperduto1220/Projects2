@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+  background-image: url("images/orig_202149.jpg");
+  /* background-attachment: scroll; */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h3,pre{
+  color: #c0c0c0;
+  text-align: center;
+  font-family: Georgia, fantasy, cursive;
+  font-variant: small-caps;
+
+}
+h3{
+  font-size: 30pt;
+  margin-bottom: .05%;
+}
+pre {
+  font-size: 25pt;
+  margin-top: 30%;
+}
+
+.bt{
+  color: #c0c0c0;
+  text-align: center;
+  /* position: absolute; */
+  font-size: 10pt;
+  font-family: Georgia, fantasy, cursive;
+  font-variant: small-caps;
+  top: 300px;
+}
+
+@font-face {
+  font-family: 'Aurebesh';
+  src: url('aurebesh/Aurebesh.ttf');
+}
+
+.basictrans,.other, .H{
+  font-family: Aurebesh, Georgia, fantasy, cursive;
+  color: #008000;
+}
+.basictrans{
+  text-align: center;
+  bottom: 50px;
+  font-size: 12pt;
+  /* margin-top: %; */
+}
+.other{
+  font-size: 20pt;
+  text-align: center;
+  margin-top: .05%;
+}
+.Home{
+  position: absolute;
+  bottom: 25px;
+  font-size: 20pt;
+  margin-left: 2%;
+}
+.H{
+  position: absolute;
+  bottom: 5px;
+  font-size: 12pt;
+  margin-left: 2%;
+}
+
+a {
+  color: red;
+}

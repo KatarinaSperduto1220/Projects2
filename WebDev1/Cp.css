@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+  background-image: url("images/stormtroopers.jpg");
+  background-attachment: scroll;
+  margin: 0%;
+  padding: 0%;
+}
+
+h3,li{
+  color: white;
+  margin-bottom: .05%;
+}
+h3{
+  text-align: center;
+  font-size: 30pt;
+  font-family: Georgia, fantasy, cursive;
+  font-variant: small-caps;
+  text-indent: 7%;
+}
+li {
+  font-size: 20pt;
+  font-family: fantasy;
+}
+ol {
+  list-style-position: inside;
+  list-style-image: url("images/stbul.jpg");
+  display: block;
+  position: static;
+}
+a {
+  color: red;
+}
+@font-face {
+  font-family: 'Aurebesh';
+  src: url('aurebesh/Aurebesh.ttf');
+}
+.cp,.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8, .H{
+  font-family: Aurebesh, Georgia, fantasy, cursive;
+  color: #008000;
+}
+.cp {
+  font-size: 16pt;
+  text-align: center;
+  text-indent: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .5%;
+}
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8{
+  font-size: 12pt;
+  margin-left: .5%;
+  text-indent: 60pt;
+  margin-top: .05%;
+}
+.Home{
+  position: absolute;
+  bottom: 25px;
+  font-size: 20pt;
+  margin-left: 2%;
+}
+.H{
+  position: absolute;
+  bottom: 5px;
+  font-size: 12pt;
+  margin-left: 2%;
+}
+#cp {
+  columns: 2;
+  margin-left:20%;
+}
